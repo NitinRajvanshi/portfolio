@@ -1,259 +1,424 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Nitin Kumar Rajvanshi — Full-Stack & AI/ML Developer</title>
-<meta name="description" content="Portfolio of Nitin Kumar Rajvanshi, Electronics & Computer Engineering undergraduate building full-stack, cloud, and AI/ML systems.">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nitin Kumar Rajvanshi — Business Analyst /Data Analyst / Cloud Engineer and Security Developer </title>
+  <meta name="description"
+    content="Portfolio of Nitin Kumar Rajvanshi, Electronics and Computer Engineering student at TIET Patiala building data pipelines, backend APIs, dashboards and secure ML systems.">
 
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap"
+    rel="stylesheet">
 
-<!-- Fonts -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
-<!-- Icons -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-
-<link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<!-- ============ NAV ============ -->
-<header class="nav" id="nav">
-  <div class="nav-inner">
-    <a href="#home" class="logo">nitin<span class="dot">.dev</span></a>
-    <nav class="nav-links">
-      <a href="#home">Home</a>
-      <a href="#about">About</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
-    </nav>
-    <a href="#contact" class="btn btn-ghost nav-cta">Say hi <i class="fa-solid fa-arrow-up-right"></i></a>
-    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu"><i class="fa-solid fa-bars"></i></button>
-  </div>
-</header>
-
-<!-- ============ HERO ============ -->
-<section class="hero" id="home">
-  <div class="hero-inner">
-    <div class="hero-copy">
-      <p class="eyebrow">// electronics & computer engineering undergrad</p>
-      <h1>Building systems<br>that <span class="highlight">actually ship.</span></h1>
-      <p class="hero-sub">I'm Nitin Kumar Rajvanshi — I build full-stack (React, FastAPI), cloud (AWS),
-        and AI/ML systems, and turn ambiguous requirements into working, deployable software.</p>
-      <div class="hero-actions">
-        <a href="#projects" class="btn btn-primary">View my work <i class="fa-solid fa-arrow-down"></i></a>
-        <a href="resume.pdf" class="btn btn-outline" download>Download résumé <i class="fa-solid fa-arrow-down-to-line"></i></a>
-      </div>
-      <div class="hero-stats">
-        <div><strong>3+</strong><span>Major projects</span></div>
-        <div><strong>40+</strong><span>Team members led</span></div>
-        <div><strong>8+</strong><span>REST APIs built</span></div>
-      </div>
+  <!-- ============ NAV ============ -->
+  <header class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="#home" class="logo">nitin<span class="dot">.dev</span></a>
+      <nav class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#leadership">Leadership</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a href="#contact" class="btn btn-ghost nav-cta">Say hi <i class="fa-solid fa-arrow-up-right"></i></a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu"><i class="fa-solid fa-bars"></i></button>
     </div>
+  </header>
 
-    <!-- signature element: code editor window -->
-    <div class="editor" aria-hidden="false">
-      <div class="editor-titlebar">
-        <div class="editor-dots"><span></span><span></span><span></span></div>
-        <div class="editor-tabs">
-          <div class="editor-tab active"><i class="fa-solid fa-code"></i> about.js</div>
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="home">
+    <div class="hero-inner">
+      <div class="hero-copy">
+        <p class="eyebrow">// software developer</p>
+        <h1>Turning data into<br><span class="highlight">working systems.</span></h1>
+        <p class="hero-sub">I'm Nitin Kumar Rajvanshi — an Electronics &amp; Computer Engineering student who builds
+          ETL pipelines, KPI dashboards, REST APIs and secure ML systems. I care about clean code,
+          reliable data and shipping on time.</p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">View my work <i class="fa-solid fa-arrow-down"></i></a>
+          <a href="resume.pdf" class="btn btn-outline" download>Download résumé <i
+              class="fa-solid fa-arrow-down-to-line"></i></a>
+        </div>
+        <div class="hero-stats">
+          <div><strong>5</strong><span>Projects built</span></div>
+          <div><strong>40+</strong><span>Team members led</span></div>
+          <div><strong>200+</strong><span>Students trained</span></div>
         </div>
       </div>
-      <pre class="editor-body"><code><span class="c-key">const</span> <span class="c-var">engineer</span> = {
+
+      <!-- signature element: code editor window -->
+      <div class="editor" aria-hidden="false">
+        <div class="editor-titlebar">
+          <div class="editor-dots"><span></span><span></span><span></span></div>
+          <div class="editor-tabs">
+            <div class="editor-tab active"><i class="fa-solid fa-code"></i> about.js</div>
+          </div>
+        </div>
+        <pre class="editor-body"><code><span class="c-key">const</span> <span class="c-var">developer</span> = {
   <span class="c-prop">name</span>: <span class="c-str">"Nitin Kumar Rajvanshi"</span>,
-  <span class="c-prop">role</span>: <span class="c-str">"Full-Stack & AI/ML Developer"</span>,
-  <span class="c-prop">location</span>: <span class="c-str">"Patiala, Punjab, India"</span>,
-  <span class="c-prop">stack</span>: [<span class="c-str">"React"</span>, <span class="c-str">"FastAPI"</span>, <span class="c-str">"PyTorch"</span>],
+  <span class="c-prop">role</span>: <span class="c-str">"Software Developer"</span>,
+  <span class="c-prop">location</span>: <span class="c-str">"Patiala, India"</span>,
+  <span class="c-prop">stack</span>: [<span class="c-str">"Python"</span>, <span class="c-str">"SQL"</span>, <span class="c-str">"FastAPI"</span>, <span class="c-str">"React"</span>],
   <span class="c-prop">available</span>: <span class="c-bool">true</span><span class="cursor">▍</span>
 };</code></pre>
-    </div>
-  </div>
-</section>
-
-<!-- ============ ABOUT ============ -->
-<section class="about" id="about">
-  <div class="section-inner">
-    <p class="eyebrow">// about me</p>
-    <div class="about-grid">
-      <div class="about-text">
-        <h2>An engineer who reads the requirements twice and ships once.</h2>
-        <p>I'm an Electronics and Computer Engineering undergraduate at Thapar Institute of
-          Engineering & Technology, with hands-on experience building full-stack (React, FastAPI),
-          cloud (AWS), and AI/ML systems. I've led a cross-functional team of 40+ members through
-          Agile/Scrum-based execution and delivered production-ready platforms spanning IoT
-          healthcare monitoring, cybersecurity, and privacy-preserving machine learning.</p>
-        <p>I enjoy taking ambiguous, messy problems and turning them into working, deployable
-          software — whether that's a vulnerability scanner, a federated learning pipeline, or a
-          real-time patient monitoring system.</p>
-        <div class="about-links">
-          <a href="https://github.com/NitinRajvanshi" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> GitHub</a>
-          <a href="https://linkedin.com/in/nitinkumarrajvanshi" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
-        </div>
-      </div>
-
-      <div class="about-cards">
-        <div class="info-card">
-          <i class="fa-solid fa-graduation-cap"></i>
-          <h3>Education</h3>
-          <p>B.E. Electronics & Computer Engineering, Thapar Institute of Engineering & Technology (2023–2027)</p>
-        </div>
-        <div class="info-card">
-          <i class="fa-solid fa-layer-group"></i>
-          <h3>Focus</h3>
-          <p>Full-stack, cloud & AI/ML systems</p>
-        </div>
-        <div class="info-card">
-          <i class="fa-solid fa-briefcase"></i>
-          <h3>Experience</h3>
-          <p>Summer Intern, LiverGuard @ Experiential Learning Centre, TIET</p>
-        </div>
-        <div class="info-card">
-          <i class="fa-solid fa-users"></i>
-          <h3>Leadership</h3>
-          <p>General Secretary, Energy Conservation Club — led 40+ members</p>
-        </div>
-        <div class="info-card">
-          <i class="fa-solid fa-certificate"></i>
-          <h3>Certifications</h3>
-          <p>Cisco Cybersecurity Essentials, Cisco Networking Academy</p>
-        </div>
       </div>
     </div>
+  </section>
 
-    <!-- skills as a terminal -->
-    <div class="terminal">
-      <div class="editor-titlebar">
-        <div class="editor-dots"><span></span><span></span><span></span></div>
-        <div class="editor-tabs"><div class="editor-tab active"><i class="fa-solid fa-terminal"></i> skills.sh</div></div>
-      </div>
-      <div class="terminal-body">
-        <p><span class="prompt">$</span> cat skills.txt</p>
-        <div class="skill-tags">
-          <span>Python</span><span>C++</span><span>JavaScript</span><span>SQL</span>
-          <span>React</span><span>Material UI</span><span>FastAPI</span><span>Flask</span>
-          <span>PyTorch</span><span>Federated Learning</span><span>AWS (EC2, S3, IAM)</span><span>Docker</span>
-          <span>MongoDB</span><span>MySQL</span><span>SQLite</span><span>JWT Auth</span>
-          <span>Git &amp; GitHub</span><span>Postman</span><span>Swagger UI</span><span>Agile/Scrum</span>
-        </div>
-        <p><span class="prompt">$</span> <span class="cursor">▍</span></p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ============ PROJECTS ============ -->
-<section class="projects" id="projects">
-  <div class="section-inner">
-    <p class="eyebrow">// projects</p>
-    <h2>Things I've built</h2>
-
-    <div class="project-grid">
-
-      <article class="project-card">
-        <div class="project-top">
-          <span class="project-num">01</span>
-          <div class="project-links">
-            <a href="https://github.com/NitinRajvanshi" target="_blank" rel="noopener" aria-label="Source code"><i class="fa-brands fa-github"></i></a>
+  <!-- ============ ABOUT ============ -->
+  <section class="about" id="about">
+    <div class="section-inner">
+      <p class="eyebrow">// about me</p>
+      <div class="about-grid">
+        <div class="about-text">
+          <h2>A builder who turns messy data into decisions.</h2>
+          <p>I'm an Electronics and Computer Engineering undergraduate (B.E., 2027) at Thapar Institute of
+            Engineering &amp; Technology with hands-on experience in SQL, ETL pipelines, Python data analysis
+            and KPI dashboards. I've built an analytics platform over 20,000+ transaction records and
+            distributed MapReduce jobs over multiple operational datasets.</p>
+          <p>Beyond code, I founded and lead the Energy Conservation Club with 40+ members, which taught me
+            to juggle priorities, hit deadlines and explain technical ideas to non-technical audiences.
+            I'm currently looking for software, data engineering and AI internship opportunities.</p>
+          <div class="about-links">
+            <a href="https://github.com/NitinRajvanshi" target="_blank" rel="noopener"><i
+                class="fa-brands fa-github"></i> GitHub</a>
+            <a href="https://www.linkedin.com/in/nitinkumarrajvanshi/" target="_blank" rel="noopener"><i
+                class="fa-brands fa-linkedin"></i> LinkedIn</a>
           </div>
         </div>
-        <h3>Web Vulnerability Scanner</h3>
-        <p>A full-stack platform that automates OWASP-based vulnerability scanning and reporting.
-          8+ RESTful APIs with JWT authentication, all endpoints validated via Postman and Swagger UI,
-          plus a responsive React dashboard for tracking scans and history.</p>
-        <div class="tags"><span>React</span><span>FastAPI</span><span>SQLAlchemy</span><span>JWT</span><span>SQLite</span></div>
-      </article>
 
-      <article class="project-card">
-        <div class="project-top">
-          <span class="project-num">02</span>
-          <div class="project-links">
-            <a href="https://github.com/NitinRajvanshi" target="_blank" rel="noopener" aria-label="Source code"><i class="fa-brands fa-github"></i></a>
+        <div class="about-cards">
+          <div class="info-card">
+            <i class="fa-solid fa-graduation-cap"></i>
+            <h3>Education</h3>
+            <p>B.E. Electronics &amp; Computer Engineering, TIET Patiala (2023–2027)</p>
           </div>
-        </div>
-        <h3>FedSecure-IoT</h3>
-        <p>A hybrid CNN-LSTM-DNN intrusion detection model for IoT networks, trained with
-          Federated Learning (FedAvg) across simulated clients — with Paillier Homomorphic
-          Encryption securing model aggregation without exposing raw client data.</p>
-        <div class="tags"><span>Python</span><span>PyTorch</span><span>Federated Learning</span><span>Homomorphic Encryption</span></div>
-      </article>
-
-      <article class="project-card">
-        <div class="project-top">
-          <span class="project-num">03</span>
-          <div class="project-links">
-            <span aria-label="Internship project" title="Internship project"><i class="fa-solid fa-certificate"></i></span>
+          <div class="info-card">
+            <i class="fa-solid fa-layer-group"></i>
+            <h3>Focus</h3>
+            <p>Data engineering, backend APIs &amp; AI/ML</p>
           </div>
-        </div>
-        <h3>LiverGuard — AI-Assisted IoT Healthcare Monitoring</h3>
-        <p>Built during a summer internship at the Experiential Learning Centre, TIET — a
-          real-time liver health monitoring system integrating ESP32/Arduino sensors, a Flask
-          dashboard, and AWS infrastructure for continuous remote patient monitoring.</p>
-        <div class="tags"><span>ESP32 / Arduino</span><span>Flask</span><span>AWS</span><span>IoT</span></div>
-      </article>
-
-    </div>
-  </div>
-</section>
-
-<!-- ============ CONTACT ============ -->
-<section class="contact" id="contact">
-  <div class="section-inner">
-    <p class="eyebrow">// get in touch</p>
-    <div class="contact-grid">
-      <div class="contact-info">
-        <h2>Let's build something.</h2>
-        <p>Have a project, a role, or just a question? My inbox is open.</p>
-
-        <div class="contact-detail"><i class="fa-solid fa-envelope"></i>
-          <div><span>Email</span><a href="mailto:nitinkumarrajvanshi6@gmail.com">nitinkumarrajvanshi6@gmail.com</a></div>
-        </div>
-        <div class="contact-detail"><i class="fa-solid fa-phone"></i>
-          <div><span>Phone</span><a href="tel:+916306823599">+91 63068 23599</a></div>
-        </div>
-        <div class="contact-detail"><i class="fa-solid fa-location-dot"></i>
-          <div><span>Location</span><p>Patiala, Punjab, India</p></div>
+          <div class="info-card">
+            <i class="fa-solid fa-briefcase"></i>
+            <h3>Experience</h3>
+            <p>IoT summer intern + 5 end-to-end projects</p>
+          </div>
         </div>
       </div>
 
-      <form class="contact-form" id="contactForm">
-        <div class="form-row">
+      <!-- skills as a terminal -->
+      <div class="terminal">
+        <div class="editor-titlebar">
+          <div class="editor-dots"><span></span><span></span><span></span></div>
+          <div class="editor-tabs">
+            <div class="editor-tab active"><i class="fa-solid fa-terminal"></i> skills.sh</div>
+          </div>
+        </div>
+        <div class="terminal-body">
+          <p><span class="prompt">$</span> cat skills.txt</p>
+          <div class="skill-tags">
+            <span>Python</span><span>SQL</span><span>C++</span><span>C</span><span>JavaScript</span>
+            <span>Pandas</span><span>Plotly</span><span>Streamlit</span><span>ETL Pipelines</span>
+            <span>MapReduce</span><span>Hadoop Streaming</span><span>MySQL</span><span>SQLite</span><span>MongoDB</span>
+            <span>FastAPI</span><span>Flask</span><span>REST APIs</span><span>SQLAlchemy</span><span>React</span>
+            <span>AWS (EC2, S3, IAM)</span><span>Docker</span><span>PyTorch</span><span>Federated Learning</span>
+            <span>Git/GitHub</span><span>Postman</span><span>Linux</span><span>Agile/Scrum</span>
+          </div>
+          <p><span class="prompt">$</span> <span class="cursor">▍</span></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ EXPERIENCE ============ -->
+  <section class="projects" id="experience">
+    <div class="section-inner">
+      <p class="eyebrow">// experience</p>
+      <h2>Where I've worked</h2>
+
+      <div class="project-grid">
+        <article class="project-card">
+          <div class="project-top">
+            <span class="project-num">Jul – Aug 2025</span>
+            <div class="project-links">
+              <a href="https://github.com/NitinRajvanshi/Certificates/blob/main/ELC_TIET/ELC_Summer_Internship_Certificate.jpeg"
+                target="_blank" rel="noopener" aria-label="Internship certificate"><i
+                  class="fa-solid fa-certificate"></i></a>
+            </div>
+          </div>
+          <h3>Summer Intern, LiverGuard — ELC, TIET</h3>
+          <p>Built a real-time IoT health-monitoring system in a cross-functional team, integrating ESP32/Arduino
+            sensors, a Flask back end and AWS into one working data pipeline. Streamed live sensor data to a cloud
+            server powering an AWS-hosted dashboard, and debugged the full sensor → cloud → dashboard flow,
+            resolving data-integrity and connectivity issues.</p>
+          <div class="tags"><span>ESP32</span><span>Arduino</span><span>Flask</span><span>AWS</span></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROJECTS ============ -->
+  <section class="projects" id="projects">
+    <div class="section-inner">
+      <p class="eyebrow">// projects</p>
+      <h2>Things I've built</h2>
+
+      <div class="project-grid">
+
+        <article class="project-card">
+          <div class="project-top">
+            <span class="project-num">01</span>
+            <div class="project-links">
+              <a href="https://github.com/NitinRajvanshi" target="_blank" rel="noopener" aria-label="Source code"><i
+                  class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+          <h3>E-Commerce Sales Intelligence Platform</h3>
+          <p>Analytics platform over 20,000+ transaction records with anomaly and duplicate detection to surface
+            irregular patterns. Includes an ETL pipeline (cleaning, validation, missing-value handling) and an
+            interactive KPI dashboard with dynamic filters and CSV export.</p>
+          <div class="tags">
+            <span>Python</span><span>SQL</span><span>Pandas</span><span>Streamlit</span><span>Plotly</span></div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-top">
+            <span class="project-num">02</span>
+            <div class="project-links">
+              <a href="https://github.com/NitinRajvanshi" target="_blank" rel="noopener" aria-label="Source code"><i
+                  class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+          <h3>SmartCampusAnalytics</h3>
+          <p>Python mapper/reducer scripts for 6 distributed analytical jobs over 4 CSV datasets (Wi-Fi, canteen,
+            library, transport), including a 2-stage MapReduce workflow for co-purchased item pairs. Run via Hadoop
+            Streaming on Ubuntu with a Streamlit dashboard showing mapper, sorted, reducer and final outputs.</p>
+          <div class="tags"><span>Python</span><span>Hadoop Streaming</span><span>MapReduce</span><span>Streamlit</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-top">
+            <span class="project-num">03</span>
+            <div class="project-links">
+              <a href="https://github.com/NitinRajvanshi/Web-vulnerability-scanner" target="_blank" rel="noopener"
+                aria-label="Source code"><i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+          <h3>Web Vulnerability Scanner</h3>
+          <p>8+ RESTful APIs in FastAPI with SQLAlchemy and JWT authentication, storing scan findings per target.
+            Validated with Postman and Swagger UI, with a React dashboard for results and scan history.</p>
+          <div class="tags">
+            <span>React</span><span>FastAPI</span><span>SQLAlchemy</span><span>JWT</span><span>SQLite</span></div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-top">
+            <span class="project-num">04</span>
+            <div class="project-links">
+              <a href="https://github.com/NitinRajvanshi/FedSecure_IoT" target="_blank" rel="noopener"
+                aria-label="Source code"><i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+          <h3>FedSecure-IoT</h3>
+          <p>CNN-LSTM-DNN intrusion detection model with secure federated aggregation (FedAvg) using Paillier
+            homomorphic encryption, built as a modular PyTorch pipeline with automated reporting and visualisation.</p>
+          <div class="tags"><span>Python</span><span>PyTorch</span><span>Federated Learning</span><span>Paillier
+              HE</span></div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-top">
+            <span class="project-num">05</span>
+            <div class="project-links">
+              <a href="https://drive.google.com/drive/folders/1GKSbOUo5EWsCfhE_3423Ji2KPPpwUQ8k?usp=sharing"
+                target="_blank" rel="noopener" aria-label="Project files"><i class="fa-solid fa-folder-open"></i></a>
+            </div>
+          </div>
+          <h3>Secure Cloud-Based File Management &amp; Backup System</h3>
+          <p>Web-based file management app deployed on AWS with user sign-in, with separate primary and backup S3
+            buckets configured and uploads verified.</p>
+          <div class="tags"><span>AWS EC2</span><span>S3</span><span>Linux</span></div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ LEADERSHIP ============ -->
+  <section class="projects" id="leadership">
+    <div class="section-inner">
+      <p class="eyebrow">// leadership &amp; activities</p>
+      <h2>Beyond the code</h2>
+
+      <div class="project-grid">
+
+        <article class="project-card">
+          <div class="project-top">
+            <span class="project-num">Jun 2025 – Jun 2026</span>
+          </div>
+          <h3>Founder &amp; General Secretary — Energy Conservation Club, TIET</h3>
+          <p>Founded the club and led 40+ members using sprint-based planning and regular stand-ups to manage
+            multiple initiatives and deadlines. Delivered workshops to 200+ students, explaining technical topics
+            clearly to non-technical audiences.</p>
+          <div class="tags"><span>Leadership</span><span>Agile</span><span>Workshops</span></div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-top">
+            <span class="project-num">Jun 2025 – Jun 2026</span>
+          </div>
+          <h3>Vice General Secretary — Paryawaran Welfare Society, TIET</h3>
+          <p>Supported the General Secretary in running environmental awareness drives and campus events,
+            coordinating volunteers and following up on deliverables to keep events on schedule.</p>
+          <div class="tags"><span>Coordination</span><span>Events</span></div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-top">
+            <span class="project-num">Sept – Nov 2024</span>
+          </div>
+          <h3>Overall Event Coordinator — Saturnalia Fest, TIET</h3>
+          <p>Managed 20+ performances and 10+ competitions under a fixed timeline and budget, raising
+            participation by 35%.</p>
+          <div class="tags"><span>Planning</span><span>Budgeting</span><span>Execution</span></div>
+        </article>
+
+      </div>
+
+      <!-- certifications -->
+      <h2 style="margin-top:3rem;">Certifications</h2>
+      <div class="project-grid">
+
+        <article class="project-card">
+          <div class="project-top">
+            <span class="project-num">Oct 2026</span>
+            <div class="project-links">
+              <a href="https://skillbuilder.aws/learn/94T2BEN85A/aws-cloud-practitioner-essentials/8D79F3AVR7"
+                target="_blank" rel="noopener" aria-label="Certificate"><i
+                  class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <h3>AWS Cloud Practitioner Essentials</h3>
+          <p>AWS Training &amp; Certification</p>
+        </article>
+
+        <article class="project-card">
+          <div class="project-top">
+            <span class="project-num">Jun 2026</span>
+            <div class="project-links">
+              <a href="https://github.com/NitinRajvanshi/Certificates/blob/main/Cisco/Cisco/%20%20%20%20%20Cisco_Cybersecurity_Essentials.pdf"
+                target="_blank" rel="noopener" aria-label="Certificate"><i
+                  class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <h3>Cybersecurity Essentials</h3>
+          <p>Cisco Networking Academy</p>
+        </article>
+
+        <article class="project-card">
+          <div class="project-top">
+            <span class="project-num">Oct 2026</span>
+          </div>
+          <h3>Fundamentals of Operations Management</h3>
+          <p>Alison</p>
+        </article>
+
+        <article class="project-card">
+          <div class="project-top">
+            <span class="project-num">Jan 2024</span>
+            <div class="project-links">
+              <a href="https://github.com/NitinRajvanshi/Certificates" target="_blank" rel="noopener"
+                aria-label="Certificate"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <h3>Intro to Quantum Communication and Machine Learning</h3>
+          <p>IIT (BHU) Varanasi</p>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="contact" id="contact">
+    <div class="section-inner">
+      <p class="eyebrow">// get in touch</p>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <h2>Let's build something.</h2>
+          <p>Have an internship, a project, or just a question? My inbox is open.</p>
+
+          <div class="contact-detail"><i class="fa-solid fa-envelope"></i>
+            <div><span>Email</span><a href="mailto:nitinkumarrajvanshi6@gmail.com">nitinkumarrajvanshi6@gmail.com</a>
+            </div>
+          </div>
+          <div class="contact-detail"><i class="fa-solid fa-phone"></i>
+            <div><span>Phone</span><a href="tel:+916306823599">+91-6306823599</a></div>
+          </div>
+          <div class="contact-detail"><i class="fa-solid fa-location-dot"></i>
+            <div><span>Location</span>
+              <p>Patiala, Punjab, India</p>
+            </div>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contactForm">
+          <div class="form-row">
+            <div class="field">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+          </div>
           <div class="field">
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" required>
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" required>
           </div>
           <div class="field">
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" required>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
           </div>
-        </div>
-        <div class="field">
-          <label for="subject">Subject</label>
-          <input type="text" id="subject" name="subject" required>
-        </div>
-        <div class="field">
-          <label for="message">Message</label>
-          <textarea id="message" name="message" rows="5" required></textarea>
-        </div>
-        <button type="submit" class="btn btn-primary btn-block">Send message <i class="fa-solid fa-paper-plane"></i></button>
-        <p class="form-note" id="formNote"></p>
-      </form>
+          <button type="submit" class="btn btn-primary btn-block">Send message <i
+              class="fa-solid fa-paper-plane"></i></button>
+          <p class="form-note" id="formNote"></p>
+        </form>
+      </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<footer class="footer">
-  <div class="section-inner footer-inner">
-    <p>© <span id="year"></span> Nitin Kumar Rajvanshi. Built from scratch.</p>
-    <div class="footer-links">
-      <a href="https://github.com/NitinRajvanshi" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i></a>
-      <a href="https://linkedin.com/in/nitinkumarrajvanshi" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin"></i></a>
-      <a href="mailto:nitinkumarrajvanshi6@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+  <footer class="footer">
+    <div class="section-inner footer-inner">
+      <p>© <span id="year"></span> Nitin Kumar Rajvanshi. Built from scratch.</p>
+      <div class="footer-links">
+        <a href="https://github.com/NitinRajvanshi" target="_blank" rel="noopener"><i
+            class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/nitinkumarrajvanshi/" target="_blank" rel="noopener"><i
+            class="fa-brands fa-linkedin"></i></a>
+        <a href="mailto:nitinkumarrajvanshi6@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+      </div>
     </div>
-  </div>
-</footer>
+  </footer>
 
-<script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
+
 </html>
